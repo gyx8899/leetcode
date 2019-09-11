@@ -1,13 +1,19 @@
 {
-  "name": "create-next-example-app",
+  "name": "LeetCode",
   "scripts": {
-    "dev": "next",
+    "test": "jest",
+    "dev": "next -p 3009",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@testing-library/react": "^9.1.4",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
     "next": "^9.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
-  }
+  },
+  "license": "UNLICENSED"
 }
