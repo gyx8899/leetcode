@@ -36,7 +36,7 @@ const twoSum_OnceHashMap = (nums, target) => {
 };
 
 export default {
-	name: 'Two sum',
+	name: 'two-sum',
 	_twoSum,
 	twoSum_OnceHashMap
 };

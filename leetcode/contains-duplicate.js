@@ -18,7 +18,7 @@ const containsDuplicate_onceHashMap = (nums) => {
 };
 
 export default {
-	name: 'containsDuplicate',
+	name: 'contains-duplicate',
 	containsDuplicate_withSet,
 	containsDuplicate_onceHashMap
 }

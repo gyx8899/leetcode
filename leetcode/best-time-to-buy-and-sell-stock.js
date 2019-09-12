@@ -37,7 +37,7 @@ const maxProfit_SequentialTraversal = (prices) => {
 };
 
 export default {
-	name: 'maxProfit',
+	name: 'best-time-to-buy-and-sell-stock',
 	maxProfit,
 	maxProfit_SequentialTraversal
 }
