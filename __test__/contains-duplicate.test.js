@@ -1,4 +1,4 @@
-import Solution from '../leetcode/002-contains-duplicate';
+import Solution from '../leetcode/contains-duplicate';
 import {testUtil, toBe} from "./Utils";
 
 let cases = [
