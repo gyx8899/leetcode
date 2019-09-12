@@ -4,7 +4,8 @@
     "test": "jest",
     "dev": "next -p 3009",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "leetcodeIndex": "node ./site/node/leetCodeIndex.js"
   },
   "dependencies": {
     "@babel/core": "^7.6.0",

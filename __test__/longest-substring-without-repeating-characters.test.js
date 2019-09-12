@@ -1,4 +1,4 @@
-import Solution from '../leetcode/longest-substring-without-repeating-characters';
+import Solution from '../site/leetcode/longest-substring-without-repeating-characters';
 import {testUtil, toBe} from "./Utils";
 
 let cases = [

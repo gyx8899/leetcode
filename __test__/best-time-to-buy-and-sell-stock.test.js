@@ -1,4 +1,4 @@
-import Solution from '../leetcode/best-time-to-buy-and-sell-stock';
+import Solution from '../site/leetcode/best-time-to-buy-and-sell-stock';
 import {testUtil, toBe} from "./Utils";
 
 let cases = [

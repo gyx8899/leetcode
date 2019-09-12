@@ -1,4 +1,4 @@
-import Solution from "../leetcode/two-sum";
+import Solution from "../site/leetcode/two-sum";
 import {testUtil, toStrictEqual} from "./Utils";
 
 let cases = [
