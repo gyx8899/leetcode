@@ -1,5 +1,5 @@
 import Solution from '../site/leetcode/longest-substring-without-repeating-characters';
-import {testUtil, toBe} from "./Utils";
+import {testSolution, toBe} from "./_utils";
 
 let cases = [
 	{
@@ -53,4 +53,4 @@ let cases = [
 	},
 ];
 
-testUtil(Solution, cases);
+testSolution(Solution, cases);

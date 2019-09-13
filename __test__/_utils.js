@@ -54,9 +54,9 @@ const getParamsString = (params) => {
  * @param Solution
  * @param cases
  */
-export const testUtil = (Solution, cases) => {
+export const testSolution = (Solution, cases) => {
 	describe(`Problem: ${Solution.name}`, () => {
-		const testSolution = (solution, caseItem) => {
+		const testCase = (solution, caseItem) => {
 			const {params, result, matcher, matcherNot} = caseItem;
 			test(`${getParamsString(params)}`, () => {
 				if (matcherNot) {
@@ -71,7 +71,7 @@ export const testUtil = (Solution, cases) => {
 			if (Solution.hasOwnProperty(key) && typeof Solution[key] === 'function') {
 				describe(`Solution: ${key}`, () => {
 					for (let i = 0, li = cases.length; i < li; i++) {
-						testSolution(Solution[key], cases[i]);
+						testCase(Solution[key], cases[i]);
 					}
 				});
 			}

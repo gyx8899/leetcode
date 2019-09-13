@@ -1,5 +1,5 @@
 import Solution from "../site/leetcode/two-sum";
-import {testUtil, toStrictEqual} from "./Utils";
+import {testSolution, toStrictEqual} from "./_utils";
 
 let cases = [
 	{
@@ -40,4 +40,4 @@ let cases = [
 	},
 ];
 
-testUtil(Solution, cases);
+testSolution(Solution, cases);

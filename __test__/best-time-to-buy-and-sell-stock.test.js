@@ -1,5 +1,5 @@
 import Solution from '../site/leetcode/best-time-to-buy-and-sell-stock';
-import {testUtil, toBe} from "./Utils";
+import {testSolution, toBe} from "./_utils";
 
 let cases = [
 	{
@@ -18,4 +18,4 @@ let cases = [
 	},
 ];
 
-testUtil(Solution, cases);
+testSolution(Solution, cases);

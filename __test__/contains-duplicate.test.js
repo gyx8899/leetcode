@@ -1,5 +1,5 @@
 import Solution from '../site/leetcode/contains-duplicate';
-import {testUtil, toBe} from "./Utils";
+import {testSolution, toBe} from "./_utils";
 
 let cases = [
 	{
@@ -25,4 +25,4 @@ let cases = [
 	},
 ];
 
-testUtil(Solution, cases);
+testSolution(Solution, cases);
