@@ -17,3 +17,6 @@ Once initialized, you can deploy the Next.js example with just a single command:
 ```shell
 $ now
 ```
+
+## Note
+- Next router is not support page refresh with router query, need add som custom logic;
