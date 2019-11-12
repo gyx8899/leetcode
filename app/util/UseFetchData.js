@@ -59,7 +59,9 @@ const useFetchData = (initialUrl, initialData) => {
 				if (!url) {
 					!didCancel && dispatch({type: FETCH_CANCELED});
 				} else {
-					const result = await fetch(url);
+					const _url = typeof url === 'string' ? url : url.url;
+					const _options = typeof url === 'string' ? undefined : url.options;
+					const result = await fetch(_url, _options);
 					const data = await result.json();
 					!didCancel && dispatch({type: FETCH_SUCCESS, payload: data});
 				}
