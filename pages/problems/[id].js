@@ -60,13 +60,14 @@ const LeetCodePage = () => {
 						Object.keys(solution)
 								.filter(key => typeof solution[key] === "function")
 								.map(key => (
-										<Highlight languages={['js']} key={key}>
+										<Highlight language="javascript" key={key}>
 											{JSON.stringify(solution[key].toString(), /\\t/g, 4)
 													.split('"')[1]
 													.split('\\n')
 													.join('\n')
 											}
-										</Highlight>))
+										</Highlight>
+								))
 					}</div>
 				</div>
 		);
