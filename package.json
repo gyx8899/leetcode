@@ -5,7 +5,8 @@
     "dev": "next -p 3009",
     "build": "next build",
     "start": "next start",
-    "leetcodeIndex": "node ./site/node/leetCodeIndex.js"
+    "leetcodeIndex": "node ./site/node/leetCodeIndex.js",
+    "git-commit-push": "cd ../yx-env && git-commit-push.sh leetcode"
   },
   "dependencies": {
     "@babel/core": "^7.6.0",
